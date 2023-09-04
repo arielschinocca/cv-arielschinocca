@@ -382,6 +382,11 @@ html{
         margin-top: 20px;
         
     }
+    .fila2 .col2 img{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
     
     .resumen .contenido-seccion .info{
         display: block;
