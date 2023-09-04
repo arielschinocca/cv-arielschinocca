@@ -275,6 +275,51 @@ html{
     padding-left: 20px;
 }
 
+/* SECCION CERTIFICACIONES/CURSO*/
+.sobremi2{
+    background-color: #d6d0d0;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.sobremi2 .contenido-seccion2{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi2 .contenido-seccion2 h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sobremi2 .contenido-seccion2 .especial2{
+    color: #940253;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi2 .contenido-seccion2 p{
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+.sobremi2 .contenido-seccion2 .fila2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi2 .contenido-seccion2 .fila2 .col2{
+    width: 30%;
+}
+.sobremi .contenido-seccion .fila2 .col2 {
+    color: #940253;
+    display: inline-block;
+    width: 10px;
+    height: 40px;
+    border: 2px solid #940253;
+    line-height: 40px;
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+
 /* SECCION CONTACTO*/
 .contacto{
     background-color: #202020;
@@ -322,6 +367,16 @@ html{
         margin: auto;
         margin-top: 20px;
     }
+    .sobremi .contenido-seccion2 .fila2{
+        display: block;
+    }
+    .sobremi .contenido-seccion2 .fila2 .col2{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+    
     .resumen .contenido-seccion .info{
         display: block;
     }
@@ -340,4 +395,5 @@ html{
     .contacto .contenido-seccion .fila{
         display: block;
     }
+
 }
