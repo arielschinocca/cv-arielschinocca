@@ -298,7 +298,7 @@ html{
 .sobremi2 .contenido-seccion2 p{
     max-width: 700px;
     margin: auto;
-    color: #666;
+    color: #141414;
 }
 .sobremi2 .contenido-seccion2 .fila2{
     display: flex;
@@ -318,7 +318,13 @@ html{
     border-radius: 50%;
     max-width: 100px;
 }
+.fila2 .col2 img{
+    padding: 2px;
+    max-width: 150px;
+    max-height: 150px;
+    border: 2px solid black;
 
+}
 
 /* SECCION CONTACTO*/
 .contacto{
