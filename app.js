@@ -1,5 +1,5 @@
 // Menu lateral
-var menu_visible = false;
+let menu_visible = false;
 let menu = document.getElementById("nav");
 function mostrarOcultarMenu(){
     if(menu_visible==false){//si esta oculto
@@ -66,7 +66,7 @@ function efectoHabilidades(){
             pintarBarra(wordpress, 13, 2, intervalWordpress);
         },100);
         const intervalPhotoshop = setInterval(function(){
-            pintarBarra(photoshop, 14, 3, intervalPhotoshop);
+            pintarBarra(photoshop, 17, 3, intervalPhotoshop);
         },100);
         const intervalPhp = setInterval(function(){
             pintarBarra(php, 17, 4, intervalPhp);
